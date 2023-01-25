@@ -65,7 +65,8 @@ class EnablePackageCommand extends Command
     {
         if ($vendor !== null) {
             return $this->vendor = $vendor;
-        } else {
+        }
+        if ($this->vendor === null) {
             throw new RuntimeException('Please provide a vendor');
         }
 
@@ -81,10 +82,10 @@ class EnablePackageCommand extends Command
     {
         if ($package !== null) {
             return $this->package = $package;
-        } else {
+        }
+        if ($this->package === null) {
             throw new RuntimeException('Please provide a package name');
         }
-
         return $this->package;
     }
 

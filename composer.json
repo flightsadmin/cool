@@ -1,0 +1,33 @@
+{
+  "name": "flightsadmin/cool",
+  "description": "Laravel package management for local development",
+  "keywords": ["Laravel", "Cool"],
+  "authors": [
+    {
+      "name": "George Chitechi",
+      "email": "flightsapps@gmail.com",
+	  "homepage": "https://github.com/flightsadmin/cool"
+    }
+  ],
+  "homepage": "https://github.com/flightsadmin/cool",
+  "require": {
+    "php": "^7|^8",
+    "laravel/framework": "^5.7|^6|^7|^8|^9"
+  },
+  "require-dev": { },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Flightsadmin\\Cool\\": "src/"
+    }
+  },
+
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Flightsadmin\\Cool\\CoolServiceProvider"
+      ]
+    }
+  },
+  "scripts": { }
+}

@@ -11,8 +11,7 @@
   ],
   "homepage": "https://github.com/flightsadmin/cool",
   "require": {
-    "php": "^7|^8",
-    "laravel/framework": "^5.7|^6|^7|^8|^9|^10"
+    "php": "^7|^8"
   },
   "require-dev": { },
   "license": "MIT",
